@@ -26,10 +26,7 @@ namespace chess_backend.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ChessBoard>>> GetChessBoards()
         {
-
-            var chessBoards = await _context.ChessBoards.ToListAsync();
-
-            return chessBoards;
+            return await _context.ChessBoards.ToListAsync();
         }
 
         // GET: api/ChessBoards/5

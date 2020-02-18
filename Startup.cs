@@ -36,7 +36,7 @@ namespace chess_backend
                 options.AddPolicy(MyAllowSpecificOrigins,
                 builder =>
                 {
-                    builder.WithOrigins("http://localhost:4200")
+                    builder.WithOrigins("http://localhost:4200", 'https://master.d26byjr92knkh0.amplifyapp.com/')
                                         .AllowAnyHeader()
                                         .AllowAnyMethod();
                 });

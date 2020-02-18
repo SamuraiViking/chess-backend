@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/db1234f9-1d7c-4b09-acc1-7f12c8897379/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/kevinchess",
+    "appService.deploySubpath": "publish"
+}
